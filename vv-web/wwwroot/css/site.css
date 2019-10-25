@@ -1,0 +1,26 @@
+/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification 
+for details on configuring this project to bundle and minify static web assets. */
+body {
+    padding-top: 50px;
+    height:100vh;
+}
+
+
+div#mapa {
+    height: calc(100% - 50px);
+    position: absolute;
+    width: 100%;
+}
+
+
+.navbar{
+    margin-bottom:0px;
+}
+
+/* Hide/rearrange for smaller screens */
+@media screen and (max-width: 767px) {
+    /* Hide captions */
+    .carousel-caption {
+        display: none;
+    }
+}
